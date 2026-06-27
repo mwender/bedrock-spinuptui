@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "139dcc1c0ae82beae7fe9d9f50a87537",
+    "content-hash": "482d2ede8b2311fed6ccef1bde687a65",
     "packages": [
         {
             "name": "composer/installers",
@@ -1040,6 +1040,67 @@
                 }
             ],
             "time": "2025-12-27T19:49:13+00:00"
+        },
+        {
+            "name": "wp-plugin/limit-login-attempts-reloaded",
+            "version": "3.3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded/",
+                "reference": "tags/3.3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.3.3.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "WPChef"
+                }
+            ],
+            "description": "WordPress login security with brute force protection, Two-factor authentication (2FA/MFA), firewall, IP/country blocking, and login monitoring",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/limit-login-attempts-reloaded/#developers",
+                "issues": "https://wordpress.org/support/plugin/limit-login-attempts-reloaded",
+                "source": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded"
+            },
+            "time": "2026-06-24T14:26:22+00:00"
+        },
+        {
+            "name": "wp-plugin/spinupwp",
+            "version": "1.9.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/spinupwp/",
+                "reference": "tags/1.9.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/spinupwp.1.9.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Brad Touesnard"
+                }
+            ],
+            "description": "SpinupWP is a modern server control panel that's here to help you implement best practices for every server you spin up. Designed for WordPress.",
+            "homepage": "https://spinupwp.com",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/spinupwp/#developers",
+                "issues": "https://wordpress.org/support/plugin/spinupwp",
+                "source": "https://plugins.svn.wordpress.org/spinupwp"
+            },
+            "time": "2026-06-17T12:45:48+00:00"
         },
         {
             "name": "wp-theme/twentytwentyfive",
